@@ -137,9 +137,6 @@ nav a:active {
     border-radius: 5px;
 }
 
-/* Unused code, but kept it just in case */
-/* .cat-div {
-    border-style: solid;
-    border: #264b9c;
-    border-radius: 5px;
-} */
+.cat-div {
+    padding: 5px;
+}
