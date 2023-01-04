@@ -1,0 +1,147 @@
+* {
+    /* Too lazy to search for fonts */
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+nav {
+    height: 67px;
+    position: sticky;
+    top: 0;
+    background-color: #264b9c;
+    z-index: 1;
+}
+
+nav h1 {
+    float: left;
+    font-size: 36px;
+    padding: 12px;
+}
+
+nav ul {
+    float: right;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 24px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+nav a {
+    text-decoration: none;
+    transition: .2s;
+    color: #f0f8ff;
+}
+
+nav a:hover {
+    color: #ffdc23;
+}
+
+nav a:active {
+    text-decoration: underline;
+    color: #d51e22;
+}
+
+.banner {
+    text-align: center;
+    justify-content: center;
+    padding: 18%;
+    background-image: url(img/gundam-banner-edit.png);
+    background-blend-mode: darken;
+    background-position-x: center;
+}
+
+.banner h1 {
+    font-size: 96px;
+    text-shadow: 2px 2px 4px black;
+    margin: 10px;
+    color: #f0f8ff;
+}
+
+.banner h2 {
+    font-size: 32px;
+    text-shadow: 2px 2px 4px black;
+    color: #f0f8ff;
+}
+
+.intro {
+    display: flex;
+    width: 75%;
+    border: #264b9c;
+    border-style: solid;
+    border-radius: 5px;
+}
+
+.about-me {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 400px;
+    margin-bottom: 400px;
+}
+
+.intro img {
+    border-radius: 15px;
+    border-style: hidden;
+    padding: 10px;
+    display: inline-block;
+}
+
+.intro-text {
+    padding: 10px;
+    display: inline-block;
+    margin: auto 0;
+}
+
+.intro-text h1 {
+    font-size: 36px;
+}
+
+.intro-text h2 {
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.cat-pics {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 400px;
+    margin-bottom: 400px;
+}
+
+.cats-container {
+    width: 75%;
+    border: #264b9c;
+    border-style: solid;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px;
+}
+
+.cat-list li {
+    display: inline-block;
+    border: #264b9c;
+    border-style: solid;
+    border-radius: 5px;
+    padding: 5px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.cat-list li img {
+    border-radius: 5px;
+}
+
+/* Unused code, but kept it just in case */
+/* .cat-div {
+    border-style: solid;
+    border: #264b9c;
+    border-radius: 5px;
+} */
