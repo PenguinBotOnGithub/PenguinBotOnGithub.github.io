@@ -33,16 +33,16 @@ nav ul li {
 
 nav a {
     text-decoration: none;
-    transition: .2s;
+    transition: .2s all;
     color: #f0f8ff;
 }
 
 nav a:hover {
+    text-decoration: underline;
     color: #ffdc23;
 }
 
 nav a:active {
-    text-decoration: underline;
     color: #d51e22;
 }
 
