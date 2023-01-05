@@ -49,8 +49,7 @@ nav a:active {
 .banner {
     text-align: center;
     justify-content: center;
-    /* padding: 18%; */
-    height: 90%;
+    padding: 18%;
     background-image: url(img/gundam-banner-edit.png);
     background-blend-mode: darken;
     background-position-x: center;
